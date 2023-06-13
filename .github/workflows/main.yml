@@ -1,0 +1,17 @@
+name: Tetap Nyala
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Tetap nyala
+      run: |
+       watch -n 120 curl https://discord-gpt4.fly.dev
