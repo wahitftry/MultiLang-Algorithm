@@ -1,40 +1,45 @@
-class Cat:
+class Car:
     """
-    ini adalah class untuk membuat objek kucing
-    melalui kelas ini ktia bisa mendefinisikan nama dan juga tipe dari kucing yang dibuat
+    Ini adalah class untuk membuat objek mobil
     """
 
-    spesies = "kucing"
+    def __init__(self, brand, model, year, color):
+        self.brand = brand
+        self.model = model
+        self.year = year
+        self.color = color
+        self.speed = 0
 
-    def __init__(self, nama, tipe):
-        self.nama = nama
-        self.tipe = tipe
+    def start(self):
+        print(f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dinyalakan mesinnya.")
 
-    def run(self, speed):
-        print(f"kucing {self.nama} berlari dengan {speed}...")
+    def stop(self):
+        print(f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dimatikan mesinnya.")
 
-    def play(self):
-        print(f"kucing {self.nama} bermain dengan kucing lainnya...")
+    def accelerate(self, speed):
+        self.speed += speed
+        print(f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dipercepat menjadi {self.speed} km/jam.")
 
-    def eat(self):
-        pass
+    def brake(self, speed):
+        self.speed -= speed
+        if self.speed < 0:
+            self.speed = 0
+        print(f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} diperlambat menjadi {self.speed} km/jam.")
 
 
-# Membuat Objek
-kinako = Cat(nama="Kinako", tipe="Anggora")
-minto = Cat(nama="Minto", tipe="Persia")
+# Membuat objek mobil
+car1 = Car(brand="Toyota", model="Avanza", year=2015, color="silver")
+car2 = Car(brand="Honda", model="Jazz", year=2018, color="red")
 
-print(f"kinako adalah seekor {kinako.__class__.spesies}")
-print(f"{kinako.nama} adalah kucing jenis {kinako.tipe}")
-print(f"{minto.nama} adalah kucing jenis {minto.tipe}")
+# Memanggil method pada objek mobil
+car1.start()
+car1.accelerate(50)
+car1.accelerate(30)
+car1.brake(20)
+car1.stop()
 
-# print(kinako.nama)
-# print(minto.tipe)
-kinako.run("cepat")
-kinako.play()
-
-print(kinako.__doc__)
-
-# Abstact Object (untuk AI)
-class RandomForest:
-    pass
+car2.start()
+car2.accelerate(70)
+car2.brake(10)
+car2.brake(100)
+car2.stop()
