@@ -4,7 +4,7 @@ Thank you for your interest in contributing to Hey-World, a repository that cont
 
 ## Code of Conduct
 
-By participating in this project, you agree to abide by the [code of conduct](^1^).
+By participating in this project, you agree to abide by the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## How to Contribute
 
@@ -18,7 +18,7 @@ There are many ways you can contribute to this project, such as:
 
 ## Reporting Bugs
 
-If you encounter any bugs or errors while using this project, please open an issue on GitHub using the [bug report template](^2^). Please provide as much detail as possible, such as:
+If you encounter any bugs or errors while using this project, please open an issue on GitHub using the [bug report template](https://github.com/wahitftry/Hey-World/blob/main/.github/ISSUE_TEMPLATE/bug_report.md). Please provide as much detail as possible, such as:
 
 - A clear and descriptive title
 - A description of the problem and how to reproduce it
@@ -30,7 +30,7 @@ Before opening a new issue, please check if there are any existing issues that a
 
 ## Suggesting New Features or Enhancements
 
-If you have any ideas or suggestions for new features or enhancements for this project, please open an issue on GitHub using the [feature request template](^3^). Please provide as much detail as possible, such as:
+If you have any ideas or suggestions for new features or enhancements for this project, please open an issue on GitHub using the [feature request template](https://github.com/wahitftry/Hey-World/blob/main/.github/ISSUE_TEMPLATE/feature_request.md). Please provide as much detail as possible, such as:
 
 - A clear and descriptive title
 - A description of the feature or enhancement and why you think it would be useful
