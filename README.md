@@ -34,4 +34,4 @@ This project is open for contributions. If you have any ideas or suggestions for
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSES) file for details.
