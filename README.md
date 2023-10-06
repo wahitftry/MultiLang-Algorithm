@@ -1,6 +1,6 @@
-# Hey World
+# MultiLang Algo
 
-Hey World is a collection of code scribbles by Wahit Fitriyanto. It contains various snippets of code in different languages and frameworks, such as Python, Java, C#, HTML, CSS, JavaScript, React, Angular, and more. The purpose of this project is to showcase some of the interesting and creative things that can be done with code.
+MultiLang Algo is a collection of code scribbles by Wahit Fitriyanto. It contains various snippets of code in different languages and frameworks, such as Python, Java, C#, HTML, CSS, JavaScript, React, Angular, and more. The purpose of this project is to showcase some of the interesting and creative things that can be done with code.
 
 ## Installation
 
