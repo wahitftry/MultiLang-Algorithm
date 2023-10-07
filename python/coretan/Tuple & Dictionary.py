@@ -28,8 +28,9 @@ fruit_dict["harga"] = 25000
 for key, value in fruit_dict.items():
     print(key, value)
 
-for key in fruit_dict:
-    print(key, fruit_dict[key])
+print("\n===Iterating over dictionary using items() method===")
+for key, value in fruit_dict.items():
+    print(key, value)
 
 print("\n======BONUS======")
 print("===SET===")

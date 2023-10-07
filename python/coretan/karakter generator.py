@@ -9,17 +9,17 @@ def acak_float(batas_bawah, batas_atas):
     return random.uniform(batas_bawah, batas_atas)
 
 # Fungsi untuk mengacak elemen dari sebuah list
-def acak_list(list):
-    return random.choice(list)
+def acak_list(daftar):
+    return random.choice(daftar)
 
 # Fungsi untuk mengacak karakter dari sebuah string
 def acak_karakter(string):
     return random.choice(string)
 
 # Fungsi untuk mengacak urutan elemen dari sebuah list
-def acak_urutan(list):
-    random.shuffle(list)
-    return list
+def acak_urutan(daftar):
+    random.shuffle(daftar)
+    return daftar
 
 # Fungsi untuk mengacak password
 def acak_password(panjang):

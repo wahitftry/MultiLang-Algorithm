@@ -17,12 +17,10 @@ class Mobil:
 
 avanza = Mobil(plat="B 1234 AC")
 
-
-
-
-avanza._bensin = 30
-print(avanza._bensin)
-
+# accessing protected member using setter method
+avanza.aturMaksimumBensin(30)
 avanza.lihatMaksimumBensin()
+
+# accessing protected member using setter method
 avanza.aturMaksimumBensin(50)
 avanza.lihatMaksimumBensin()
