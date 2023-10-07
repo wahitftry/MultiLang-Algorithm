@@ -1,4 +1,5 @@
 import random
+import sys
 
 attempts_list = []
 
@@ -24,7 +25,7 @@ def start_game():
 
     if wanna_play.lower() != 'yes':
         print('That\'s cool, Thanks!')
-        exit()
+        sys.exit()
     else:
         show_score()
 
