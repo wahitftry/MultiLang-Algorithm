@@ -1,4 +1,3 @@
-# Encapsulation untuk mencegah terjadi perubahan yang di sengaja atau tidak di sengaja
 
 
 class Mobil:
@@ -18,11 +17,8 @@ class Mobil:
 
 avanza = Mobil(plat="B 1234 AC")
 
-# print(avanza._plat)
 
-# print(avanza._tipe)
 
-# print(avanza._bensin)
 
 avanza._bensin = 30
 print(avanza._bensin)

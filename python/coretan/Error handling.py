@@ -2,7 +2,6 @@ print("\n======ERROR HANDLING======")
 print("===SYNTAX ERROR===")
 # syntax error
 
-# fruit_list = ["apple", "banana", "watermelon"]
 
 # for fruit in fruit_list
 #    print(fruit)
@@ -10,27 +9,8 @@ print("===SYNTAX ERROR===")
 print("===LOGICAL ERROR===")
 # Logical error
 
-# nilai = 10
-# pembagi = 0
-# hasil = nilai/pembagi
 
-# try:
-#    nilai = 10
-#    pembagi = 0
-#    hasil = nilai/pembagi
-# except Exception as e:
-#    print("Terjadi error", e.__class__, ".")
 
-# try:
-#    nilai = 10
-#    pembagi = 0
-#    hasil = nilai/pembagi
-# except ZeroDivisionError:
-#     print("ada error bro")
-# except ValueError:
-#    print("Coba cek lagi")
-# except:
-#     print("TErjadi error yang tidak dikenal")
 
 
 class ValueTooSmallError(Exception):
