@@ -6,7 +6,8 @@ class Animal:
         self.tipe = "Animal"
         self.kecepatan = "Lambat"
 
-    def grow(self):
+    @staticmethod
+    def grow():
         print("Mamalia ini bertumbuh...")
 
 # Child Class

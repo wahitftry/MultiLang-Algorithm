@@ -4,7 +4,8 @@ class Cat:
         self.nama = "Meong"
         self.tipe = "Anggora"
 
-    def forward(self):
+    @staticmethod
+    def forward():
         print("Kucing berlari...")
 
 class Bird:
@@ -12,7 +13,8 @@ class Bird:
         self.nama = "Erago"
         self.tipe = "Elang"
 
-    def forward(self):
+    @staticmethod
+    def forward():
         print("Burung terbang...")
 
 def melaju(objek):
