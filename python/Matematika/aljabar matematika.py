@@ -41,4 +41,4 @@ for i in range(len(A) - 1, -1, -1):
 # Menampilkan solusi
 print("Solusi dari persamaan:")
 for i, item in enumerate(x):
-    print("x{} = {}".format(i+1, item))
+    print(f"x{} = {}".format(i+1, item))

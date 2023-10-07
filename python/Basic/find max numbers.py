@@ -6,4 +6,4 @@ if num1 > num2:
 else:
     max_num = num2
 
-print("The maximum of {0} and {1} is {2}".format(num1, num2, max_num))
+print(f"The maximum of {0} and {1} is {2}".format(num1, num2, max_num))
