@@ -5,10 +5,7 @@ def is_armstrong(num):
     for digit in num_str:
         sum += int(digit) ** num_digits
     
-    if sum == num:
-        return True
-    else:
-        return False
+    return sum == num
 
 num = int(input("Enter a number: "))
 if is_armstrong(num):
