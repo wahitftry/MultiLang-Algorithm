@@ -11,9 +11,6 @@ pv.play("here with me dav4d")
 
 print("\n=====BUILT-IN MODULE=====")
 
-import os
-import math
-
 from math import pi
 from math import e
 
