@@ -50,8 +50,8 @@ If you want to contribute to this repo, you are welcome to do so. You can fork t
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, you can contact me at wahitftry@gmail.com. Thank you for visiting my repo! 😊
+If you have any questions, suggestions, or feedback, you can contact me at wahitfitriyanto@gmail.com. Thank you for visiting my repo! 😊
