@@ -1,69 +1,60 @@
-# Contributing to Hey-World
+# Contributing to MultiLang-Algo
 
-Thank you for your interest in contributing to Hey-World, a repository that contains my code scribbles. I appreciate your time and effort in making this project better. 
+I'm glad you want to contribute to my MultiLang-Algo repository. This is a project where I share sample code, scribbles, and algorithms from various programming languages. Here are some guidelines to help you get started.
 
-## Code of Conduct
-
-By participating in this project, you agree to abide by the [code of conduct](CODE_OF_CONDUCT.md).
-
-## How to Contribute
+## How to contribute
 
 There are many ways you can contribute to this project, such as:
 
-- Reporting bugs
-- Suggesting new features or enhancements
-- Reviewing pull requests
+- Reporting bugs or suggesting enhancements
+- Adding new code, scribbles, or algorithms in different languages
+- Improving the existing code, scribbles, or algorithms
 - Writing or updating documentation
-- Sharing your feedback or opinions
+- Reviewing pull requests
 
-## Reporting Bugs
+## Code of conduct
 
-If you encounter any bugs or errors while using this project, please open an issue on GitHub using the [bug report template](https://github.com/wahitftry/Hey-World/blob/main/.github/ISSUE_TEMPLATE/bug_report.md). Please provide as much detail as possible, such as:
+Please read and follow the [code of conduct](^6^) before you interact with the project. I want this to be a welcoming and respectful community for everyone.
 
-- A clear and descriptive title
-- A description of the problem and how to reproduce it
+## Issues
+
+If you encounter a bug or have a feature request, please check the [existing issues](^7^) first to see if someone else has already reported it. If not, you can [create a new issue](^8^) and describe the problem or idea in detail. Please include as much information as possible, such as:
+
+- The steps to reproduce the bug or the motivation for the feature request
 - The expected and actual behavior
+- The environment where the bug occurs (e.g., operating system, browser, etc.)
 - Any relevant screenshots or error messages
-- The version of the project and any dependencies you are using
 
-Before opening a new issue, please check if there are any existing issues that address the same problem. If so, you can comment on them or add your reaction.
+## Pull requests
 
-## Suggesting New Features or Enhancements
+If you want to make changes to the code, scribbles, or algorithms, please follow these steps:
 
-If you have any ideas or suggestions for new features or enhancements for this project, please open an issue on GitHub using the [feature request template](https://github.com/wahitftry/Hey-World/blob/main/.github/ISSUE_TEMPLATE/feature_request.md). Please provide as much detail as possible, such as:
+1. Fork the repository and create a new branch from the `main` branch.
+2. Make your changes and commit them with a clear and concise message. Please follow the [commit message guidelines](^9^).
+3. Push your branch to your fork and [create a pull request] from it.
+4. Wait for me or someone else to review your pull request and provide feedback or approval.
+5. If there are any comments or requests for changes, address them and update your pull request.
+6. Once your pull request is merged, you can delete your branch.
 
-- A clear and descriptive title
-- A description of the feature or enhancement and why you think it would be useful
-- Any relevant examples or mock-ups
-- Any alternative solutions or workarounds you have considered
+## Documentation
 
-Before opening a new issue, please check if there are any existing issues that address the same or similar ideas. If so, you can comment on them or add your reaction.
+If you want to help with writing or updating documentation, such as README files, comments, or wiki pages, please follow these guidelines:
 
-## Reviewing Pull Requests
+- Use clear and simple language that is easy to understand.
+- Follow the [GitHub Flavored Markdown] syntax for formatting.
+- Check your spelling and grammar before submitting your changes.
+- Provide relevant examples or screenshots if possible.
 
-If you want to help review and merge pull requests from other contributors, please follow these guidelines:
+## Reviewing
 
-- Be respectful and constructive in your feedback
-- Check if the pull request follows the [coding style](^4^) and [commit message](^5^) conventions of this project
-- Check if the pull request is related to an existing issue and if it closes it when merged
-- Check if the pull request has any conflicts with the base branch and if it can be rebased or squashed if needed
-- Check if the pull request has any tests or documentation updates if applicable
-- Test the pull request locally and report any issues or bugs you find
-- Approve the pull request if you think it is ready to be merged or request changes if you think it needs some improvement
+If you want to help with reviewing pull requests from other contributors, please follow these guidelines:
 
-## Writing or Updating Documentation
+- Be polite and respectful. Do not make personal attacks or criticize anyone's work harshly.
+- Provide constructive and specific feedback that can help improve the quality of the code, scribbles, or algorithms.
+- Explain your reasoning behind your comments or suggestions.
+- If you are not sure about something, ask questions or request clarification.
+- If you approve a pull request, leave a positive comment or emoji.
 
-Documentation is an important part of any project, as it helps users understand how to use it and developers understand how to maintain it. If you want to help write or update the documentation for this project, please follow these guidelines:
+## Thank you
 
-- Use clear and concise language that is easy to read and understand
-- Use proper grammar, spelling, and punctuation
-- Use consistent formatting and style throughout the documentation
-- Use [Markdown](^6^) syntax for writing and formatting the documentation files
-- Follow the [documentation style guide](^7^) of this project
-- Add any relevant screenshots or code examples to illustrate your points
-- Update the table of contents and any cross-references if you add, remove, or rename any documentation files
-- Proofread your documentation before submitting it
-
-## Sharing Your Feedback or Opinions
-
-If you have any feedback or opinions about this project, such as what you like or dislike about it, what challenges you faced while using it, or what improvements you would like to see in the future, please feel free to share them with me. You can either open an issue on GitHub using the [feedback template](^8^) or contact me directly via [email](wahitfitriyanto@gmail.com). I appreciate your honest and constructive feedback and I will try my best to address your concerns and suggestions.
+I appreciate your interest and effort in contributing to this project. I hope you enjoy learning and sharing different programming languages with me and others. Thank you! 😊
