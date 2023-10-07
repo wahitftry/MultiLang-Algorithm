@@ -57,18 +57,18 @@ print(selamat_datang.__doc__)
 x = 100
 
 
-def operasi(a, b, c):
-    op1 = a + b
+def operasi(a_in, b_in, c):
+    op1 = a_in + b_in
     op2 = op1 // c
-    print("a di dalam function:", a)
-    print("b di dalam function:", b)
+    print("a di dalam function:", a_in)
+    print("b di dalam function:", b_in)
     print(x)
     return op2
 
 
 a = 2
 b = 1
-hasil = operasi(a=10, b=5, c=3)
+hasil = operasi(a_in=10, b_in=5, c=3)
 print(hasil)
 
 print("a di luar function:", a)
