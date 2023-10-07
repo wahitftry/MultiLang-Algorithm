@@ -94,10 +94,6 @@ for nama in daftar_murid:
 else:
     print("nama murid tidak ditemukan")
 
-
-for nama in daftar_murid:
-    pass
-
 if daftar_murid == 0:
     pass
 
