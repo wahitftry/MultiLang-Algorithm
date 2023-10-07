@@ -1,46 +1,45 @@
-print('=====OPERATOR=====')
-print('===Aritmatik Operator===')
+print("=====OPERATOR=====")
+print("===Aritmatik Operator===")
 
 a = 5
 b = 3
-print(a + b) 
-print(a - b) 
-print(a * b) 
-print(a / b) 
-print(a % b) 
-print(a // b) 
-print(a ** b) 
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a // b)
+print(a**b)
 
-print('\n===Aritmatik Operator===')
+print("\n===Aritmatik Operator===")
 
-a = 5 
-a += 3 
+a = 5
+a += 3
 print(a)
 
 a = 5
-a *= 3 
+a *= 3
 print(a)
 
 a = 5
-a //=3 
+a //= 3
 print(a)
 
-s = "ini adalah string" 
-print(s *2)
+s = "ini adalah string"
+print(s * 2)
 
-b = True 
-print(b/2)
+b = True
+print(b / 2)
 
-print('\n===Operator Perbandingan===')
-
+print("\n===Operator Perbandingan===")
 
 x = 10
 y = 15
 
-print(x > y) 
-print(x < y) 
+print(x > y)
+print(x < y)
 print(x == y)
-print(x != y) 
+print(x != y)
 print(x >= y)
 print(x <= y)
 

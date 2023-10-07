@@ -4,8 +4,9 @@ def is_armstrong(num):
     total = 0
     for digit in num_str:
         total += int(digit) ** num_digits
-    
+
     return bool(total == num)
+
 
 def main():
     num = int(input("Enter a number: "))
@@ -15,5 +16,5 @@ def main():
         print(f"{num} is not an Armstrong number")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

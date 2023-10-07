@@ -1,6 +1,6 @@
-print("=====RegEx=====")
-
 import re
+
+print("=====RegEx=====")
 
 print("\n=====MATCH RegEx=====")
 teks = "regex"

@@ -11,7 +11,6 @@ print("selamat berjuang!")
 
 print("\n===FOR LOOP===")
 
-
 list_angka = [1, 2, 3, 4, 5]
 
 for x in list_angka:
@@ -31,11 +30,9 @@ for x in list(range(1, 11)):
 
 print("\n===NESTED LOOP===")
 
-
 i = 90
 
 while i < 100:
-
     j = 2
     print((i / j))
     while j < +(i / j):
@@ -47,17 +44,13 @@ print("Selamat Berjuang")
 
 print("\n===BREAK & CONTINUE===")
 
-
 for val in "string":
-
     if val == "g":
         continue
 
     print(val)
 
-
 for val in "string":
-
     if val == "i":
         break
 
@@ -72,7 +65,6 @@ daftar_murid = ["Angga", "Mardadi", "Rowi"]
 nama_murid = "Jaka"
 
 for nama in daftar_murid:
-
     if nama == nama_murid:
         print((nama))
         break
@@ -80,13 +72,11 @@ for nama in daftar_murid:
 else:
     print("nama murid tidak ditemukan")
 
-
 daftar_murid = ["Angga", "Mardadi", "Rowi"]
 
 nama_murid = "Angga"
 
 for nama in daftar_murid:
-
     if nama == nama_murid:
         print((nama))
         break

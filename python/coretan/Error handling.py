@@ -2,15 +2,11 @@ print("\n======ERROR HANDLING======")
 print("===SYNTAX ERROR===")
 # syntax error
 
-
 # for fruit in fruit_list
 #    print(fruit)
 
 print("===LOGICAL ERROR===")
 # Logical error
-
-
-
 
 
 class ValueTooSmallError(Exception):

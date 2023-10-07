@@ -1,5 +1,3 @@
-
-
 class Mobil:
     def __init__(self, plat):
         self._plat = plat
