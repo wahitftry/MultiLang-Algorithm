@@ -61,15 +61,13 @@ print(selamat.__doc__)
 
 x = 100
 
-
 def operasi(a_in, b_in, c):
-    op1 = a_in + b_in
-    op2 = op1 // c
+    x_local = a_in + b_in
+    op2 = x_local // c
     print("a di dalam function:", a_in)
     print("b di dalam function:", b_in)
     print(x)
     return op2
-
 
 a = 2
 b = 1
