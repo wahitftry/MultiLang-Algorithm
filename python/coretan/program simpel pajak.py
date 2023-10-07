@@ -28,6 +28,6 @@ def hitung_pajak(gaji_in, tanggungan_in):
 gaji_input = int(input("Masukkan gaji tahunan: "))
 tanggungan_input = int(input("Masukkan jumlah tanggungan: "))
 
-pajak = hitung_pajak(gaji_input, tanggungan_input)
+pajak_result = hitung_pajak(gaji_input, tanggungan_input)
 
-print("Pajak yang harus dibayar: Rp", pajak)
+print("Pajak yang harus dibayar: Rp", pajak_result)

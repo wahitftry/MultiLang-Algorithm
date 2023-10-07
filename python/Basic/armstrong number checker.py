@@ -7,8 +7,13 @@ def is_armstrong(num):
     
     return bool(total == num)
 
-num = int(input("Enter a number: "))
-if is_armstrong(num):
-    print("{0} is an Armstrong number".format(num))
-else:
-    print("{0} is not an Armstrong number".format(num))
+def main():
+    num = int(input("Enter a number: "))
+    if is_armstrong(num):
+        print("{0} is an Armstrong number".format(num))
+    else:
+        print("{0} is not an Armstrong number".format(num))
+
+
+if __name__ == '__main__':
+    main()

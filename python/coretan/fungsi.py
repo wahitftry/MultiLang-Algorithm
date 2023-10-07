@@ -42,7 +42,7 @@ double = lambda x: x * 2
 print(double(7))
 
 
-def selamat_datang(nama):
+def selamat(nama):
     """
     ini adalah fungsi untuk menyapa
     nama yang telah disebutkan
@@ -51,8 +51,8 @@ def selamat_datang(nama):
     print(var)
 
 
-selamat_datang("efi")
-print(selamat_datang.__doc__)
+selamat("efi")
+print(selamat.__doc__)
 
 x = 100
 
