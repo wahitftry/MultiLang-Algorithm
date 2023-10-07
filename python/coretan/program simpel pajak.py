@@ -25,6 +25,7 @@ def hitung_pajak(gaji_in, tanggungan_in):
 
     return pajak
 
+
 gaji_input = int(input("Masukkan gaji tahunan: "))
 tanggungan_input = int(input("Masukkan jumlah tanggungan: "))
 

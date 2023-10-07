@@ -1,25 +1,32 @@
 print("=====FUNCTION=====")
 print("===Non-Paramater Function===")
 
+
 def hello_world():
     var = "Halo Wahit, hello world!"
     print(var)
 
+
 hello_world()
 print("\n===Paramater Function===")
+
 
 def selamat_datang(nama):
     var = f"halo {nama}, welcome!"
     print(var)
 
+
 selamat_datang("wahit")
+
 
 def selamat_datang_dari(nama, asal):
     var = f"Halo {nama} dari {asal}, welcome!"
     print(var)
 
+
 selamat_datang_dari("Wahit", "Gondang Slamet")
 selamat_datang_dari(asal="Klaten", nama="Efi")
+
 
 def selamat_datang_all(*daftar_nama):
     var = "halo"
@@ -28,13 +35,17 @@ def selamat_datang_all(*daftar_nama):
     var += " welcome!"
     print(var)
 
+
 selamat_datang_all("efi", "arthur", "shindu", "andi", "rowi")
 print("\n===Anonim Function===")
+
 
 def double(num):
     return num * 2
 
+
 print(double(7))
+
 
 def selamat(nama):
     """
@@ -44,10 +55,12 @@ def selamat(nama):
     var = f"Halo {nama}, welcome!"
     print(var)
 
+
 selamat("efi")
 print(selamat.__doc__)
 
 x = 100
+
 
 def operasi(a_in, b_in, c):
     x_local = a_in + b_in
@@ -56,6 +69,7 @@ def operasi(a_in, b_in, c):
     print("b di dalam function:", b_in)
     print(x)
     return op2
+
 
 a = 2
 b = 1

@@ -1,7 +1,9 @@
-print("=====MODULE=====")
-print("=====CREATE OWN MODULE=====")
+from math import e, pi
 
 import playvideo as pv
+
+print("=====MODULE=====")
+print("=====CREATE OWN MODULE=====")
 
 print(pv.GENRE)
 
@@ -10,9 +12,6 @@ print(pv.DURATION)
 pv.play("here with me dav4d")
 
 print("\n=====BUILT-IN MODULE=====")
-
-from math import pi
-from math import e
 
 print(pi)
 print(e)

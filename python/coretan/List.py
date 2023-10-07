@@ -7,7 +7,6 @@ list4 = ["abc", 10, True, 40, "male"]
 
 list5 = [list4, list3, list2, list1]
 
-
 print(list1 + list2)
 
 list2.sort()
@@ -34,10 +33,7 @@ print("\n====Member List====")
 print("apple" in fruit_list)
 print("apple" not in fruit_list)
 
-fruit_list = [
-    "apple",
-    "banana","watermelon"
-]
+fruit_list = ["apple", "banana", "watermelon"]
 
 print(fruit_list)
 

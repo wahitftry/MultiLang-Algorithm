@@ -8,6 +8,7 @@ class Cat:
     def forward():
         print("Kucing berlari...")
 
+
 class Bird:
     def __init__(self):
         self.nama = "Erago"
@@ -17,8 +18,10 @@ class Bird:
     def forward():
         print("Burung terbang...")
 
+
 def melaju(objek):
     objek.forward()
+
 
 meong = Cat()
 erago = Bird()

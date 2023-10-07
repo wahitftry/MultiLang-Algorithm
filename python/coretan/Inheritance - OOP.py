@@ -1,5 +1,6 @@
 # inheritance memiliki fungsi yang relevance antara parent class dan child class
 
+
 # Parent Class
 class Animal:
     def __init__(self):
@@ -10,10 +11,10 @@ class Animal:
     def grow():
         print("Mamalia ini bertumbuh...")
 
+
 # Child Class
 class Cat(Animal):
     def __init__(self, nama, tipe):
-
         super().__init__()
 
         self.nama = nama
@@ -21,6 +22,7 @@ class Cat(Animal):
 
     def run(self):
         print(f"kucing {self.tipe} ini berlari...")
+
 
 kinoko = Cat(nama="kinoko", tipe="Anggora")
 minto = Cat(nama="Minto", tipe="Persia")

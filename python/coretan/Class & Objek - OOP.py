@@ -11,20 +11,28 @@ class Car:
         self.speed = 0
 
     def start(self):
-        print(f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dinyalakan mesinnya.")
+        print(
+            f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dinyalakan mesinnya."
+        )
 
     def stop(self):
-        print(f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dimatikan mesinnya.")
+        print(
+            f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dimatikan mesinnya."
+        )
 
     def accelerate(self, speed):
         self.speed += speed
-        print(f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dipercepat menjadi {self.speed} km/jam.")
+        print(
+            f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} dipercepat menjadi {self.speed} km/jam."
+        )
 
     def brake(self, speed):
         self.speed -= speed
         if self.speed < 0:
             self.speed = 0
-        print(f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} diperlambat menjadi {self.speed} km/jam.")
+        print(
+            f"{self.brand} {self.model} ({self.year}) dengan warna {self.color} diperlambat menjadi {self.speed} km/jam."
+        )
 
 
 # Membuat objek mobil
