@@ -10,9 +10,9 @@ def is_armstrong(num):
 def main():
     num = int(input("Enter a number: "))
     if is_armstrong(num):
-        print("{0} is an Armstrong number".format(num))
+        print(f"{num} is an Armstrong number")
     else:
-        print("{0} is not an Armstrong number".format(num))
+        print(f"{num} is not an Armstrong number")
 
 
 if __name__ == '__main__':

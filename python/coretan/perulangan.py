@@ -94,8 +94,13 @@ for nama in daftar_murid:
 else:
     print("nama murid tidak ditemukan")
 
-if daftar_murid == 0:
+for nama in daftar_murid:
     pass
 
+if daftar_murid == 0:
+    # implementation for the first branch
+    print("No students in the list")
+
 else:
-    pass
+    # implementation for the second branch (same as the third branch)
+    print("There are students in the list")

@@ -38,7 +38,12 @@ def selamat_datang_all(*daftar_nama):
 
 selamat_datang_all("efi", "arthur", "shindu", "andi", "rowi")
 print("\n===Anonim Function===")
-double = lambda x: x * 2
+
+
+def double(x):
+    return x * 2
+
+
 print(double(7))
 
 

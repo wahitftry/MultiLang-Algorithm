@@ -23,8 +23,11 @@ def main():
     path = sys.argv[1]
     try:
         image = Image.open(path)
-    except:
-        print(f"Unable to open image file {path}.")
+    except FileNotFoundError:
+        print(f"Unable to open image file {path}. File not found.")
+        return
+    except Exception as e:
+        print(f"Unable to open image file {path}. Error: {e}")
         return
 
     new_width = 100
