@@ -36,9 +36,8 @@ print("apple" not in fruit_list)
 
 fruit_list = [
     "apple",
-    "banana",
+    "banana","watermelon"
 ]
-fruit_list.append("watermelon")
 
 print(fruit_list)
 
