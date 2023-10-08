@@ -19,7 +19,8 @@ def count_chars(password):
 
     return upper_count, num_count, wspace_count, special_count
 
-def check_strength(upper_count, num_count, wspace_count, special_count):
+def check_strength(password):
+    upper_count, num_count, wspace_count, special_count = count_chars(password)
     strength = 0
     remarks = ''
 
