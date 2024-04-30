@@ -1,18 +1,32 @@
-name: Tetap Nyala
+name: Download and Commit File
 
 on:
-  repository_dispatch:
-  workflow_dispatch:
+    workflow_dispatch:
+        inputs:
+            file_link:
+                description: 'Link to the file'
+                required: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    download-commit:
+        runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+        steps:
+            - name: Checkout repository
+                uses: actions/checkout@v2
 
-    - name: Upload coverage reports to Codecov
-      uses: codecov/codecov-action@v3
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+            - name: Download file
+                run: |
+                    curl -O ${{ github.event.inputs.file_link }}
+
+            - name: Commit file
+                run: |
+                    git config --local user.email "action@github.com"
+                    git config --local user.name "GitHub Action"
+                    git add .
+                    git commit -m "Add downloaded file"
+
+            - name: Push changes
+                uses: ad-m/github-push-action@v0.6.0
+                with:
+                    github_token: ${{ secrets.GITHUB_TOKEN }}
