@@ -17,7 +17,7 @@ jobs:
 
             - name: Download file
               run: |
-                   curl -O ${{ github.event.inputs.file_link }}
+                   curl -L ${{ github.event.inputs.file_link }}
 
             - name: Commit file
               run: |
@@ -27,6 +27,6 @@ jobs:
                     git commit -m "Add downloaded file"
 
             - name: Push changes
-              uses: ad-m/github-push-action@v0.6.0
+              uses: ad-m/github-push-action@v0.8.0
               with:
                     github_token: ${{ secrets.GITHUB_TOKEN }}
