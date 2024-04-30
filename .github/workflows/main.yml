@@ -13,20 +13,20 @@ jobs:
 
         steps:
             - name: Checkout repository
-                uses: actions/checkout@v2
+              uses: actions/checkout@v3
 
             - name: Download file
-                run: |
-                    curl -O ${{ github.event.inputs.file_link }}
+              run: |
+                   curl -O ${{ github.event.inputs.file_link }}
 
             - name: Commit file
-                run: |
+              run: |
                     git config --local user.email "action@github.com"
                     git config --local user.name "GitHub Action"
                     git add .
                     git commit -m "Add downloaded file"
 
             - name: Push changes
-                uses: ad-m/github-push-action@v0.6.0
-                with:
+              uses: ad-m/github-push-action@v0.6.0
+              with:
                     github_token: ${{ secrets.GITHUB_TOKEN }}
