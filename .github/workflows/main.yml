@@ -17,7 +17,7 @@ jobs:
 
             - name: Download file
               run: |
-                   wget ${{ github.event.inputs.file_link }}
+                   wget ${{ github.event.inputs.file_link }} --user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
 
             - name: Commit file
               run: |
