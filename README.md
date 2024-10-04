@@ -1,4 +1,4 @@
-# MultiLang-Algo
+# MultiLang-Algorithm
 
 This is a personal project where I collect and share some of the sample code, scribbles, and algorithms that I have learned from various programming languages. I hope this repo can be useful for anyone who wants to learn more about different programming paradigms and techniques.
 
